@@ -1,0 +1,19 @@
+html {
+    background-image: url(/IMG/starry-night-1093721-960-720-7985.jpeg);
+}
+
+canvas {
+    border: 1px solid #000;
+    margin: 10px;
+    background-color: white;
+}
+
+fieldset {
+    color: yellow;
+    width: 400px;
+    background-color: pink;
+}
+
+h1 {
+    color: purple;
+}

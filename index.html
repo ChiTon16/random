@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+    <link rel="stylesheet" href="/CSS/bai3.css">
+</head>
+<body>
+    <div class="banner"><div class="banner-content">TRÒ CHƠI QUAY SỐ</div></div>
+
+    <div class="nav">
+        <div class="nav-select"><a href="/index.html">Trang chủ</a></div>
+        <div class="nav-select"><a href="/bai3-2.html">Giao diện số</a></div>
+        <div class="nav-select"><a href="/bai3-3.html">Giao diện hình</a></div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <div class="color-box">
+                <div class="left-list">
+                    <ul>
+                        <li>C#</li>
+                        <li>PHP & MySQL</li>
+                        <li>XML</li>
+                        <li>Java</li>
+                        <li>SQLServer</li>
+                        <li>ASP.NET</li>
+                        <li>Windows</li>
+                        <li>Android</li>
+                        <li>Phone</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="color-box"></div>
+            <div class="color-box"></div>
+            <div class="color-box"></div>
+        </div>
+
+        <div class="mid">
+            <form class="form-buy" id="form">
+                <table>
+                    <td><caption>ĐĂNG KÝ MUA HÀNG</caption></td>
+                    <tr>
+                        <td><label for="">Họ tên:</label></td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Số lượng mua:</td>
+                        <td><input type="number" id="amount"></td>
+                    </tr>
+                    <tr>
+                        <td>Ngày nhận hàng:</td>
+                        <td><input type="date" id="days"></td>
+                    </tr>
+                    <tr>
+                        <td>Thanh toán</td>
+                        <td>
+                            <input type="radio" name="thanhtoan" id="ck">
+                            <label for="thanhtoan" >Chuyển khoản</label>
+                            <input type="radio" name="thanhtoan" id="tt">
+                            <label for="thanhtoan">Trực tiếp khi giao hàng</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Đăng Ký Mua" style="padding: 0 10px; cursor: pointer;">
+                            <input type="reset" value="Xóa" style="padding: 0 10px; cursor: pointer;">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <div class="Result">
+                <div id="ResultName"></div>
+                <div id="ResultMount"></div>
+                <div id="ResultDay"></div>
+                <div id="ResultBank"></div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="color-box">
+                <div class="quangcao-container">
+                    <div class="Quangcao">Vùng quảng cáo 1</div>
+                    <div class="Quangcao">Vùng quảng cáo 2</div>
+                </div>
+            </div>
+            <div class="color-box"></div>
+            <div class="color-box"></div>
+            <div class="color-box"></div>
+        </div>
+    </div>
+
+    <div class="footer"></div>
+
+    <script src="/JS/bai3.js"></script>
+</body>
+</html>

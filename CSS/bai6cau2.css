@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    background-color: #00a4cc;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    font-size: 3em;
+    color: yellow;
+    text-shadow: 3px 3px 2px black;
+    margin-left: 20px;
+    line-height: 100px;
+}
+
+.MSSV {
+    color: white;
+    font-size: 1.2em;
+    margin-right: 20px;
+    line-height: 100px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #00b3a8;
+    height: 40px;
+    margin: 2px 0px;
+    justify-content: center;
+}
+
+.nav-select {
+    line-height: 40px;
+    background-color: #008171;
+    width: 140px;
+    margin: 0 5px;
+    text-align: center;
+    border: 1px dotted white;
+    position: relative;
+}
+
+.nav-select a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-select:hover {
+    background-color: #039584;
+}
+
+.nav-select:nth-child(3):hover .nav-select-list {
+    display: block;
+}
+
+.nav-select-list li:hover {
+    background-color: #039584;
+}
+
+.nav-select-list {
+    display: none;
+}
+
+.nav-select-list li {
+    list-style: none;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #027d6e;
+    border: 1px dotted white;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+}
+
+.left, .right {
+    width: 15%;
+    background-color: #bfe9f6;
+}
+
+.mid {
+    width: 70%;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.left-banner {
+    background-color: blue;
+    color: white;
+    font-size: 1.2em;
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.left-list li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.right-block {
+    width: 170px;
+    height: 150px;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 8px 8px 5px gray;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 60px;
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+td {
+    padding: 20px 0;
+}
+
+caption {
+    font-size: 2em;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.inputgt {
+    width: 80px;
+}
+
+.input-btn {
+    width: 500px;
+}
+
+.footer {
+    background-color:#00a4cc;
+    height: 60px;
+    color: yellow;
+    text-align: center;
+    line-height: 60px;
+}
